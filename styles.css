@@ -13,6 +13,7 @@ nav {
     position: absolute;
     opacity: 0.5;
     margin-right: 0px;
+    
 }
 
 label.logo {
@@ -21,6 +22,7 @@ label.logo {
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+  user-select: none;
 }
 
 label.logo1 {
@@ -30,6 +32,7 @@ label.logo1 {
     padding: 0 100px;
     font-weight: bold;
     margin-left: 29.2pc;
+    user-select: none;
 }
 .reflection {
     width: 50PC;
@@ -41,10 +44,12 @@ label.logo1 {
     position: absolute;
     margin-top: 90px;
     text-align: center;
+    user-select: none;
   }
 
 .Info {
   font-size: 17.5px;
+  user-select: none;
 }
 canvas {
   display: block;
